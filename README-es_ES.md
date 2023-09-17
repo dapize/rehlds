@@ -9,11 +9,11 @@
 
 # ReHLDS in Docker
 
-Using the image [dapize/hlds:latest](https://github.com/dapize/hlds) and the files compiled from the [oficial repository of ReHLDS](https://github.com/dreamstalker/rehlds) and [Docker](https://www.docker.com/) of course, this repo allow the creation of a Docker image of a ReHLDS ready to use.
+Usando la imagen [dapize/hlds:latest](https://github.com/dapize/hlds) y los archivos compilados desde el [repositorio oficial de ReHLDS](https://github.com/dreamstalker/rehlds) y [Docker](https://www.docker.com/) obviamente, este repositorio aloja the creación de una imagen de docker lista para usarce.
 
-## How use it?
+## ¿Cómo usarla?
 
-Importing the commands from the father image...
+Importando los comandos desde la imagen base...
 
 ```
 docker run -d --name rehlds\
@@ -28,13 +28,13 @@ docker run -d --name rehlds\
  dapize/rehlds:latest
 ```
 
-and that's it!
+y eso es todo!
 
-> the files are located in: /opt/hlds
+> Los archivos están localizados en la ruta /opt/hlds
 
-## If you use docker-compose
+## Si usas docker-compose
 
-Can use the example writed in the docker-compose file:
+Puedes usar el ejemplo escrito en el archivo docker-compose.yaml
 
 ```
 version: "2"
@@ -53,10 +53,10 @@ services:
       - 27015:27015/tcp
 ```
 
-## 📚 Do you need help?
+## 📚 ¿Necesitas ayuda?
 
-Let me know if have some doubt
+Hazme saber si tienes alguna duda
 
 ## 🧾 License
 
-The code and documentation are published under the [Mit License](LICENSE).
+El código y documentación son publicados bajo la licencia [MIT](LICENSE).
