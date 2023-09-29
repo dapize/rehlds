@@ -37,12 +37,12 @@ y eso es todo!
 Puedes usar el ejemplo escrito en el archivo docker-compose.yaml
 
 ```
-version: "2"
+version: "3.9"
 services:
   rehlds:
     image: dapize/hlds:latest
     environment:
-      SERVER_NAME: "My ReHL Server"
+      SERVER_NAME: "My ReHL Dedicated Server"
       START_MAP: "crossfire"
       MAXPLAYERS: "32"
       RCON_PASSWORD: "secret"
